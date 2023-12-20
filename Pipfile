@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+requests = "*"
+pandas = "*"
+pandas-ta = "*"
+matplotlib = "*"
+scikit-learn = "*"
+httpserver = "*"
+fastapi = "*"
+chromadb = "==0.3.29"
+openai = "==0.28.1"
+wget = "*"
+cheerio = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

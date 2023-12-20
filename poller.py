@@ -1,0 +1,3 @@
+# script for polling a particular website/endpoint/port/etc...
+# and returning the results of the poll id and when they exist
+# Usage: python/3 poller.py <list of parameters> <list of options>
