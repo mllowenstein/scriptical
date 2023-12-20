@@ -27,4 +27,3 @@ Various scripts that can be used ad-hoc or integrated with a more robust service
 ### thinker
 
 - script that performs a series of reasoning processes to produce a meaningful and hopefully reasonable response to provided inputs
-
