@@ -5,9 +5,12 @@ name = "pypi"
 
 [packages]
 numpy = "*"
+boto3 = "*"
+botocore = "*"
 requests = "*"
 pandas = "*"
 pandas-ta = "*"
+python-dotenv = "*"
 matplotlib = "*"
 scikit-learn = "*"
 httpserver = "*"
@@ -16,8 +19,16 @@ chromadb = "==0.3.29"
 openai = "==0.28.1"
 wget = "*"
 cheerio = "*"
+schedule = "*"
+PyPDF4 = "*"
+cctx = "*"
+bs4 = "*"
 
 [dev-packages]
+pytest = {version="*"}
 
 [requires]
 python_version = "3.10"
+
+[scripts]
+checkcheck="echo 'Testing, one, two, three... ${USERNAME}, we are a go.'"
